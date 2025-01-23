@@ -1,0 +1,1863 @@
+[
+	{
+		"Name": "Apple",
+		"Item Row Name": "Apple",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"1F6B036844B1EF5742F48FA2D3324289\", \"Apple\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"193C6D044DD475A7D622E388205DA989\", \"A simple Apple\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_AppleIcon.T_AppleIcon'",
+		"Item Sound": "None",
+		"SimulatePhysics?": true,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/Blueprints/Items/Meshes/SM_Apple.SM_Apple'",
+		"Item Price": 3,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Energy",
+			"GainAmount": 5,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Burger",
+		"Item Row Name": "Burger",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"5428AFC54D7FD8A53E90F9975D3F042D\", \"Burger\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"1A1D031E4038366F068CDDB11E85B6B4\", \"A hamburger. Yummy !\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Uncommon",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_SandwichIcon.T_SandwichIcon'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/Blueprints/Items/Meshes/SM_Burger.SM_Burger'",
+		"Item Price": 15,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Energy",
+			"GainAmount": 7,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "SodaCan",
+		"Item Row Name": "SodaCan",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"5B14FB6D4FDFD97E751163BF24721BCE\", \"Soda can\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"150B96C64B94DD4E94508E9DFDFCC065\", \"An energetic drink. To consume with moderation\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_SodaCan.T_SodaCan'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/Blueprints/Items/Meshes/SM_Soda.SM_Soda'",
+		"Item Price": 8,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Energy",
+			"GainAmount": 12,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "WaterBottle",
+		"Item Row Name": "WaterBottle",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"4F85045A4D47907E5523EE8C52C5E601\", \"Water bottle\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"04EB99A34201A91CE6A47495951435A2\", \"A simple bottle of water. Refreshing !\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_WaterBottleIcon.T_WaterBottleIcon'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/Blueprints/Items/Meshes/SM_WaterBottle.SM_WaterBottle'",
+		"Item Price": 12,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Energy",
+			"GainAmount": 20,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "ChocolateBar",
+		"Item Row Name": "ChocolateBar",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"B6D50299432E112AE3FBC4AC033661E0\", \"Chocolate Bar\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"A47C96314F2F60AC0692BB98C108FAB7\", \"A chocolate bar\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_ChocolateBar.T_ChocolateBar'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 7,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Mood",
+			"GainAmount": 6,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Book",
+		"Item Row Name": "Book",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"8F28621245D0E2B3901014B26E42121D\", \"Book\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"43595C234E9B4E19AD6C81BB06783E4A\", \"A simple book\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_BookIcon.T_BookIcon'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/Blueprints/Items/Meshes/SM_Book.SM_Book'",
+		"Item Price": 10,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 10,
+			"StatGain": "Knowledge"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Key",
+		"Item Row Name": "Key",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"E401A4CE4F3680A6692BDCA81534CA57\", \"Key\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"0E93F626485CF35894554B863FED4E25\", \"A silver key\")",
+		"Item Type": "Key Item",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_KeyIcon.T_KeyIcon'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/Blueprints/Items/Meshes/SM_Key.SM_Key'",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Present",
+		"Item Row Name": "Present",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"70594B33494672670EF18AAF86C48308\", \"Present\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"D4C24C6349A764AB374F939F575EF0A8\", \"A mysterious and shiny gift !\")",
+		"Item Type": "Gift",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_PresentIcon.T_PresentIcon'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Engine/BasicShapes/Cube1.Cube1'",
+		"Item Price": 100,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Purse",
+		"Item Row Name": "Purse",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"0E3FAE914999C5CF8B789B82D0690739\", \"Purse\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"64E2A4354EAA4DB488CA06B7EAD1F5CD\", \"A small purse containing credits\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Purse.T_Purse'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Money",
+			"GainAmount": 50,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Couch",
+		"Item Row Name": "Couch",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"881A60974D8A8210A9CE4B95576361E5\", \"Couch\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"4F5915BB486B4A7759C652B5F88B6550\", \"A yellow and cozy couch\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Couch.T_Couch'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_Couch.SM_Couch'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": [
+				{
+					"NeededItemRowName": "WoodBeam",
+					"NeededAmount": 4
+				},
+				{
+					"NeededItemRowName": "IronBar",
+					"NeededAmount": 3
+				}
+			]
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Table",
+		"Item Row Name": "Table",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"6E14BC424F9E58BD30137D94AE0D32DC\", \"Table\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"7336234F4BA6666E965A9DBB1D0A2E97\", \"A yellow table\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Table.T_Table'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_TableRound.SM_TableRound'",
+		"Item Price": 10,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": [
+				{
+					"NeededItemRowName": "WoodBeam",
+					"NeededAmount": 3
+				}
+			]
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Chair",
+		"Item Row Name": "Chair",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"D49FD51242E2E03F8169359F1A6103C3\", \"Chair\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"7321FE254FE08ED6598894BE91EFC4DB\", \"A cozy chair\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Chair.T_Chair'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_Chair.SM_Chair'",
+		"Item Price": 5,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": [
+				{
+					"NeededItemRowName": "WoodBeam",
+					"NeededAmount": 2
+				},
+				{
+					"NeededItemRowName": "IronBar",
+					"NeededAmount": 1
+				}
+			]
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Shelf",
+		"Item Row Name": "Shelf",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"78520843405DF116F83A9787DBD71F4B\", \"Shelf\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"93A812314AB2DB879BE0258E446808CA\", \"A yellow shelf\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Engine/EngineResources/AICON-Green.AICON-Green'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_Shelf.SM_Shelf'",
+		"Item Price": 5,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": true,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Painting",
+		"Item Row Name": "Painting",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"00A2E465459E1F0C65BB9994F34FCD2B\", \"Painting\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"2B1DB1254E9B179A121A47AE3E939EC7\", \"A painting\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Engine/EngineResources/AICON-Red.AICON-Red'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_WindowFrame.SM_WindowFrame'",
+		"Item Price": 10,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": true,
+			"HousingInteractable?": true,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/Interactables/BPC_Painting.BPC_Painting_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Workbench",
+		"Item Row Name": "Workbench",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"8208F65943A961F974D973A8025D1BFE\", \"Workbench\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"EFAC8A0C4F5FDBE0E8386D821583070D\", \"A simple workbench used to craft items\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Legendary",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Workbench.T_Workbench'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_Workbench.SM_Workbench'",
+		"Item Price": 150,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": true,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/Interactables/BPC_Workbench.BPC_Workbench_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Stove",
+		"Item Row Name": "Stove",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"2A7AC25A49B3914452FD92910276FA8E\", \"Stove\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"8775E9D44FD9D89E484389A6AF54AD70\", \"A stove to cook food\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Legendary",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Stove.T_Stove'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_Stove.SM_Stove'",
+		"Item Price": 150,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": true,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/Interactables/BPC_Stove.BPC_Stove_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": [
+				{
+					"NeededItemRowName": "WoodBeam",
+					"NeededAmount": 2
+				},
+				{
+					"NeededItemRowName": "IronBar",
+					"NeededAmount": 3
+				}
+			]
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Radio",
+		"Item Row Name": "Radio",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"357BD2CA48432772600310BD3B4330B2\", \"Radio\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"0DC2F5734B9C9803C1D410801B8E49E5\", \"A small radio to listen to music\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Radio.T_Radio'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Engine/BasicShapes/Cube1.Cube1'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": true,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/Interactables/BPC_Radio.BPC_Radio_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Bed",
+		"Item Row Name": "Bed",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"718C4304440688AB16C3F9BD3117E88D\", \"Bed\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"6896E3EC4E8440B7CA869F9F76E540B0\", \"Comfy to sleep in\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Bed.T_Bed'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Engine/BasicShapes/Cube1.Cube1'",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": true,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/Interactables/BPC_Bed.BPC_Bed_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Cupboard",
+		"Item Row Name": "Cupboard",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"2B79A2CB41127AAF0736EEBD6B9908E6\", \"Cupboard\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"53D769E94E326833EFAF4184D43709CB\", \"A cupboard to change clothes\")",
+		"Item Type": "Housing",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Cupboard.T_Cupboard'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Engine/BasicShapes/Cube1.Cube1'",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": true,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/Interactables/BPC_Cupboard.BPC_Cupboard_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "WoodBeam",
+		"Item Row Name": "WoodBeam",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"1523774945D7A5953C8741BBB74F3E70\", \"Wood beam\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"178FB64549AE62302DDFC4A14C881CDC\", \"A beam of wood. Perfect for crafting furnitures.\")",
+		"Item Type": "Material",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_WoodBeam.T_WoodBeam'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 5,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": [
+				{
+					"NeededItemRowName": "EnergeticLeaf",
+					"NeededAmount": 2
+				}
+			]
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "IronBar",
+		"Item Row Name": "IronBar",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"41B8624540CD21767C04C5A37C7F7ACF\", \"Iron bar\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"FA50916348E2E60EBCAF1FBA5C0253D7\", \"A bar of iron. Perfect for crafting furnitures.\")",
+		"Item Type": "Material",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_IronBar.T_IronBar'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 5,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "BlueprintTable",
+		"Item Row Name": "BlueprintTable",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"24313810430085D891F13CA9D144C092\", \"Blueprint : Table\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"F3DF434F43672B72EB4B4897509B656D\", \"A blueprint that learns how to craft a small round table\")",
+		"Item Type": "Blueprint",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Blueprint.T_Blueprint'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "Table",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "BlueprintChair",
+		"Item Row Name": "BlueprintChair",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"7DDE84EB424228A6AE9FE2ADA21BF125\", \"Blueprint : Chair\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"783F066E496FB3598A3269AE92D48F86\", \"A blueprint that learns how to craft a simple chair\")",
+		"Item Type": "Blueprint",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Uncommon",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Blueprint.T_Blueprint'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 10,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "Chair",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "BlueprintCouch",
+		"Item Row Name": "BlueprintCouch",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"76A691CA4FE26D4FE78A1CB1A71DB652\", \"Blueprint : Couch\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"35694C754E5B5EA57DEEE0966A1F41DA\", \"A blueprint that learns how to craft a cozy couch\")",
+		"Item Type": "Blueprint",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Epic",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Blueprint.T_Blueprint'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "Couch",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "BlueprintStove",
+		"Item Row Name": "BlueprintStove",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"78143AF4478B28D29246D59C66B98B19\", \"Blueprint : Stove\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"169EF4554AB7D9B92AFE95904C326F0B\", \"A blueprint that learns how to craft a stove\")",
+		"Item Type": "Blueprint",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Legendary",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Blueprint.T_Blueprint'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 100,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "Stove",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "BlueprintSodaCan",
+		"Item Row Name": "BlueprintSodaCan",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"907F0E1B4759C254A36926953F91E1B8\", \"Blueprint : Soda can\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"DE71DD4045E111488368C6835B4BD80B\", \"A blueprint that learns how to craft a soda can\")",
+		"Item Type": "Blueprint",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Uncommon",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Blueprint.T_Blueprint'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 10,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "SodaCan",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "BlueprintWoodBeam",
+		"Item Row Name": "BlueprintWoodBeam",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"C9E1847241AA46D13ADCD4A24E8286AD\", \"Blueprint : Wood Beam\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"0FDA4EBE4A39AC4FF14E07A189D7536C\", \"A blueprint that learns how to craft wood beams\")",
+		"Item Type": "Blueprint",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Uncommon",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Blueprint.T_Blueprint'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 10,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "WoodBeam",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "EnergeticSeed",
+		"Item Row Name": "EnergeticSeed",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"8FDD5E3E4B9F332E4E2BC385C52CCD51\", \"Energetic seeds\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"43E854364C1C33563C130CA3B3639C43\", \"Plant it to grow energetic leaves\")",
+		"Item Type": "Seed",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Uncommon",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Seed.T_Seed'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 3,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "/Script/Engine.StaticMesh'/Game/LS_Template/EpicContent/StarterContent/Props/SM_Bush.SM_Bush'",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 5,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "EnergeticLeaf",
+			"HarvestedAmount": 3
+		}
+	},
+	{
+		"Name": "EnergeticLeaf",
+		"Item Row Name": "EnergeticLeaf",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"5E964DAC46FC64182745009CB7416160\", \"Energetic Leaf\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"D06B146F4F686CD28E5E1589EC8BAE3A\", \"Used to make energetic soda\")",
+		"Item Type": "Material",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Leaf.T_Leaf'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 7,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Backpack",
+		"Item Row Name": "Backpack",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"866934B64BFD245D5EB03C9E54728787\", \"Backpack\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"03FEBC05491A512BC6FEB7B531DFDD87\", \"A backpack to keep more items !\")",
+		"Item Type": "Consumable",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Legendary",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/LS_Template/Blueprints/Items/Icons/T_Backpack.T_Backpack'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "None",
+		"Item Price": 100,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Inventory slots",
+			"GainAmount": 3,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Cardboard_Helmet",
+		"Item Row Name": "Cardboard_Helmet",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"AB1895F1474ABF242418CABD41F793DC\", \"Cardboard_Helmet\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"051CD70B4DD5DFA8915C92954D60FF84\", \"Clothes : Head\")",
+		"Item Type": "Clothes",
+		"Clothes Type": "Head",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Cardboard_Helmet.T_ICON_Armor_Cardboard_Helmet'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Cardboard_Helm.SM_Armor_Cardboard_Helm'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Cardboard_Chest",
+		"Item Row Name": "Cardboard_Chest",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"B6FB8BB0459EA2BB99B19289BC3FF11E\", \"Cardboard_Chest\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"E2AC72B049A2DB44FAE677A6B1130802\", \"Clothes : Torso\")",
+		"Item Type": "Clothes",
+		"Clothes Type": "Torso",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Cardboard_Chest.T_ICON_Armor_Cardboard_Chest'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Cardboard_Chest.SM_Armor_Cardboard_Chest'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Cardboard_Gloves",
+		"Item Row Name": "Cardboard_Gloves",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"ECEE826446609062A129129959A46F5B\", \"Cardboard_Gloves\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"00261C1D4EEBE29E64962399283A29CD\", \"Clothes : Hands\")",
+		"Item Type": "Clothes",
+		"Clothes Type": "Hands",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Cardboard_Gloves.T_ICON_Armor_Cardboard_Gloves'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Cardboard_Gloves.SM_Armor_Cardboard_Gloves'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Cardboard_Legs",
+		"Item Row Name": "Cardboard_Legs",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"6DDF6F954FCE68D8B88DC599AD7BC093\", \"Cardboard_Legs\")",
+		"Item Description": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"A07A207C454E1DBA6A965E8A7010A29E\", \"Clothes : legs\")",
+		"Item Type": "Clothes",
+		"Clothes Type": "Legs",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Cardboard_Legs.T_ICON_Armor_Cardboard_Legs'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Cardboard_Legs.SM_Armor_Cardboard_Legs'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Cardboard_Boots",
+		"Item Row Name": "Cardboard_Boots",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"81729F834D2AFEAB7F5E3DB24D5A9A8A\", \"Cardboard_Boots\")",
+		"Item Description": "",
+		"Item Type": "Clothes",
+		"Clothes Type": "Feet",
+		"Item Rarity": "Common",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Cardboard_Boots.T_ICON_Armor_Cardboard_Boots'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Cardboard_Boots.SM_Armor_Cardboard_Boots'",
+		"Item Price": 20,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Armor_Leather_Hood",
+		"Item Row Name": "Armor_Leather_Hood",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"304AD04E4B3F6924D895ABA3028D3398\", \"Armor_Leather_Hood\")",
+		"Item Description": "",
+		"Item Type": "Clothes",
+		"Clothes Type": "Head",
+		"Item Rarity": "Rare",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Leather_Hood.T_ICON_Armor_Leather_Hood'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Leather_Hood.SM_Armor_Leather_Hood'",
+		"Item Price": 35,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Leather_Helmet",
+		"Item Row Name": "Leather_Helmet",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"F3F9C8C74D5D9878CA225AB7B8CC108E\", \"Leather_Helmet\")",
+		"Item Description": "",
+		"Item Type": "Clothes",
+		"Clothes Type": "Head",
+		"Item Rarity": "Legendary",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Leather_Helmet.T_ICON_Armor_Leather_Helmet'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Leather_Helmet.SM_Armor_Leather_Helmet'",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	},
+	{
+		"Name": "Leather_Boots",
+		"Item Row Name": "Leather_Boots",
+		"Item Name": "NSLOCTEXT(\"[882A08774427045DCC0015AAF412F9AB]\", \"9EF0A49A48284DA5636919AF70322E97\", \"Leather_Boots\")",
+		"Item Description": "",
+		"Item Type": "Clothes",
+		"Clothes Type": "Feet",
+		"Item Rarity": "Legendary",
+		"Item Icon": "/Script/Engine.Texture2D'/Game/InventorySystem/Items/Equipment/Icons/T_ICON_Armor_Leather_Boots.T_ICON_Armor_Leather_Boots'",
+		"Item Sound": "None",
+		"SimulatePhysics?": false,
+		"Item Mesh": "/Script/Engine.StaticMesh'/Game/InventorySystem/Items/Equipment/Meshes/SM_Armor_Leather_Boots.SM_Armor_Leather_Boots'",
+		"Item Price": 50,
+		"Item Amount": 1,
+		"Gain Details":
+		{
+			"GainType": "Stat",
+			"GainAmount": 0,
+			"StatGain": "NONE"
+		},
+		"Housing Details":
+		{
+			"WallItem?": false,
+			"HousingInteractable?": false,
+			"HousingClass": "/Script/Engine.BlueprintGeneratedClass'/Game/LS_Template/Blueprints/Housing/BP_Housing.BP_Housing_C'"
+		},
+		"Crafting Details":
+		{
+			"Item Learnt on Use": "None",
+			"Item Recipe": []
+		},
+		"Gardening Details":
+		{
+			"PlantMesh": "None",
+			"DatePlanted":
+			{
+				"CurrentDay": "Monday",
+				"DayNumber": 0,
+				"CurrentMonth": "January",
+				"EventName": "",
+				"PublicHoliday?": false
+			},
+			"GrowthDays": 0,
+			"DaysBeforeHarvest": 0,
+			"HarvestedItemRowName": "None",
+			"HarvestedAmount": 0
+		}
+	}
+]
